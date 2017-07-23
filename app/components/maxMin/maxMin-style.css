@@ -1,0 +1,11 @@
+.min-max{
+    min-height: 200px;
+}
+
+.min-max .min{
+    color: #6495ED ;
+}
+
+.min-max .max{
+    color: #FF7F00;
+}

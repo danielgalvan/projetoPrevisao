@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Previsão do tempo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./app/vendor/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="./app/style/style.css">
+    </head>
+
+    <body ng-app="app">
+        <div class="container">
+            <div ng-controller="weatherController">
+                <weather></weather>
+            </div>
+        </div>
+
+    <script src="./app/vendor/jquery/jquery.js" type="text/javascript"></script>
+    <script src="./app/vendor/bootstrap/bootstrap.js" type="text/javascript"></script>
+    <script src="./app/vendor/states/states.js" type="text/javascript"></script>
+    <script src="./app/vendor/angular/angular.js" type="text/javascript"></script>
+
+    <script src="./app/app.module.js" type="text/javascript"></script>
+
+
+    <script src="app/components/view/view-service.js" type="text/javascript"></script>
+    <script src="app/components/view/view-controller.js" type="text/javascript"></script>
+    <script src="app/components/view/view-directive.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./app/components/view/view-style.css">
+
+    <script src="app/components/maxMin/maxMin-directive.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="app/components/maxMin/maxMin-style.css">
+
+    <script src="./app/components/beachDay/beachDay-directive.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./app/components/beachDay/beachDay-style.css">
+
+    <script src="./app/components/temperaturasSemana/temperaturasSemana-directive.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="./app/components/temperaturasSemana/temperaturasSemana-style.css">
+
+    </body>
+</html>
